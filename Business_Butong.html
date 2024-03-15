@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-sand w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Claire Airbnb</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="mnm.jpg" alt="overlooking" width="1600" height="500">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity w3-text-white">
+    <h1 class="w3-xxlarge">Claire Airbnb</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="download.jpg" class="w3-round w3-image w3-opacity-min" alt="collage" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large w3-sand">
+      <h1 class="w3-center w3-brown">About Airbnb</h1><br>
+      <h5 class="w3-center">Since 2024</h5>
+      <p class="w3-large">The airbnb is located in Gitagum Misamis Oriental. It has an overlooking backyard facing the ocean with breeze of fresh air.
+        It a classic bungalow with a wide living room with furnitures and electronic devices, 2 bedrooms and 1 common toilet and bath.
+        The dirty kitechen has a complete set of utilities and refrigerator and gasoline stove for cooking. The overall experience will be filled with love
+        with our lovely guard dogs outside the residency.
+      <p class="w3-large w3-text-grey w3-hide-medium">Book now and experience the overwhelming feeling connected with nature and unleash yourself with exciting activities.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large w3-sand">
+      <h1 class="w3-center w3-brown">Activity Package</h1><br>
+      <h4>Mountian Hiking</h4>
+      <p class="w3-text-grey">If you're looking for a ovelooking view above the mountain, we offer you a 1hr-30min hike to Mt. Angas.</p><br>
+    
+      <h4>Beach Resort</h4>
+      <p class="w3-text-grey">If you're into swimming and beach unwind, we offer you the Burnay Sands, 10 mins ride to the beach and you can hear the sound of the waves.</p><br>
+    
+      <h4>Trail Hiking</h4>
+      <p class="w3-text-grey">Follow the trial that will lead you to a paradise and feel enchanted with the ambiance of the surroundings. </p><br>
+    
+      <h4>River Hiking</h4>
+      <p class="w3-text-grey">Be enchanted and let flow of the river take your surrows away ad feel refresh after an exhausting day.</p><br>
+    
+      <h4>Restaurants</h4>
+      <p class="w3-text-grey">The experience wouldn't be complete without filling your stomach with mouth watering foods. You can choose the restaurant of your choice nearby out residency. </p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="food.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We accept early booking and will update you on the process 24/7, any problems will be directed immediately. We wish a healthy experience during your staycation. Thank you!</p>
+    <p class="w3-text-blue-grey w3-large"><b>Claire Airbnb Cornelia Str. Gitagum, Misamis Oriental, Php </b></p>
+    <p>You can also contact us by phone 09351781578 or email claireairbnb@airbnb.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border-brown w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border-brown w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-border-brown w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-border-brown w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-sand w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-sand w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
